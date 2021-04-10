@@ -7,10 +7,6 @@ const (
 	defaultFromEmail = "user@example.org"
 	defaultHelloName = "localhost"
 
-	disposableDomainDataPath = "/data/disposable.txt"
-	freeDomainDataPath       = "/data/free.txt"
-	roleAccountDataPath      = "/data/role.txt"
-
 	smtpTimeout = 30 * time.Second
 	smtpPort    = ":25"
 
@@ -21,4 +17,8 @@ const (
 	alphanumeric = "abcdefghijklmnopqrstuvwxyz0123456789"
 
 	disposableDataURL = "https://raw.githubusercontent.com/disposable/disposable-email-domains/master/domains.json"
+
+	gravatarBaseUrl = "https://www.gravatar.com/avatar/"
+
+	gravatarDefaultMd5 = "d5fe5cbcc31cff5f8ac010db72eb000c"
 )
